@@ -1,0 +1,18 @@
+.wrapper {
+width: 800px;
+margin: auto;
+    
+}
+
+.padded {
+padding: 10px;
+border: 1px solid purple;
+margin: 10px;   
+
+}
+
+#header { width: 758px}
+#left { width:223px; float: left; }
+#content { width:223px; float: left; }
+#right { width: 223px; float: right; }
+#footer { width: 758px; clear: both; }
