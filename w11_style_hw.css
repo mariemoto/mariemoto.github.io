@@ -1,0 +1,27 @@
+
+.noun {
+font-size: 25px;
+color : green;
+}
+
+.Padjective {
+font-size: 30px;
+color : #ff0000;
+}
+
+.Nadjective1, .Nadjective2 {
+font-size: 30px;
+color : blue;
+}
+
+.verb {
+font-size: 35px;
+color : pink;
+}
+
+.noun, .Padjective, .Nadjective1, .Nadjective2, .verb {
+font-family: "Helvetica"; 
+
+}
+
+
