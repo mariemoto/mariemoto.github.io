@@ -1,0 +1,346 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#input {
+    float: left;
+    height: 39px;
+    font-size: 1em;
+    margin-left: -88.908854%;
+    margin-top: 44px;
+    clear: none;
+    width: 12.876254%;
+    display: block;
+}
+
+#text {
+    float: left;
+    font-size: 30px;
+    width: 8.533654%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 6.658854%;
+    margin-top: 109px;
+    clear: none;
+    min-height: 37px;
+    font-family: 'Gill Sans';
+    display: block;
+    color: rgb(246, 173, 200);
+    margin-right: 0%;
+}
+
+#text1 {
+    float: left;
+    font-size: 30px;
+    width: 10.933581%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 8.402344%;
+    margin-top: 105px;
+    clear: none;
+    min-height: 37px;
+    font-family: 'Gill Sans';
+    margin-right: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+}
+
+#text2 {
+    float: left;
+    font-size: 30px;
+    width: 11.861152%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 7.717448%;
+    margin-top: 105px;
+    clear: none;
+    min-height: 37px;
+    font-family: 'Gill Sans';
+    margin-right: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+}
+
+#text3 {
+    float: left;
+    font-size: 30px;
+    width: 14.954052%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 4.802083%;
+    margin-top: 110px;
+    clear: none;
+    min-height: 36px;
+    font-family: 'Gill Sans';
+    margin-right: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: 70.06689%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 15.813802%;
+    margin-top: 52px;
+    clear: both;
+    min-height: 66px;
+    display: block;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 40px;
+    line-height: 1em;
+    font-family: 'Gill Sans';
+    color: rgb(239, 133, 125);
+}
+
+#box1 {
+    float: left;
+    height: 473px;
+    margin-left: 14.614583%;
+    margin-top: 26px;
+    clear: both;
+    width: 70.665365%;
+    border: 1px solid rgb(255, 0, 0);
+    display: block;
+    background-image:url("img/tumblr_nmiomhpZGO1u9f3xto1_1280.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: 121%;
+    background-size: 121%;
+    background-position: 50% 50%;
+    background-repeat: repeat repeat;
+}
+
+#text5 {
+    float: left;
+    font-size: 20px;
+    width: 70.666545%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 14.611979%;
+    margin-top: 49px;
+    clear: both;
+    min-height: 100px;
+    font-family: arial;
+    display: block;
+}
+
+#textspan4 {
+    float: none;
+    font-size: 24px;
+    line-height: 1em;
+    color: rgb(239, 133, 125);
+}
+
+#textspan5 {
+    float: none;
+    font-size: 18px;
+    line-height: 1em;
+    color: rgb(239, 133, 125);
+}
+
+#textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(246, 173, 200);
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(246, 173, 200);
+}
+
+#textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(246, 173, 200);
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 25.600459%;
+    height: auto;
+    margin-left: 3.0625%;
+    margin-top: 96.65625px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 25.642768%;
+    height: auto;
+    margin-left: 3.188802%;
+    margin-top: 96.65625px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#image4 {
+    float: left;
+    width: auto;
+    max-width: 20.799801%;
+    height: auto;
+    margin-left: 3.204427%;
+    margin-top: 82.5px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box {
+    float: left;
+    height: 118px;
+    margin-left: 10.158854%;
+    margin-top: 63px;
+    clear: none;
+    width: 10.503763%;
+    margin-right: 0%;
+    border: 5px solid rgb(125, 239, 206);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    display: block;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 103.590881%;
+    margin-top: -334px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-width: 5.302625%;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 5.222621%;
+    height: auto;
+    margin-left: -12.015625%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box2 {
+    float: left;
+    height: 72px;
+    margin-left: 1.328125%;
+    margin-top: 202px;
+    clear: both;
+    width: 6%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-color: rgb(125, 239, 206);
+    opacity: 0.36;
+}
+
+#text6 {
+    float: left;
+    font-size: 1em;
+    width: 55.53385%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 12.999132%;
+    margin-top: 24px;
+    clear: none;
+    min-height: 52px;
+    font-family: helvetica;
+    font-style: normal;
+    margin-right: 0%;
+}
+
+#textspan6 {
+    float: none;
+    font-size: 70px;
+    line-height: 16px;
+    color: rgb(239, 133, 125);
+}
+
+#box3 {
+    float: left;
+    height: 72px;
+    margin-left: 2.640625%;
+    margin-top: 202px;
+    clear: none;
+    width: 6%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    opacity: 0.36;
+    display: block;
+    background-color: rgb(125, 239, 206);
+    margin-right: 0%;
+}
+
+#text7 {
+    float: left;
+    font-size: 1em;
+    width: 84.678817%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 24.283854%;
+    margin-top: -3px;
+    clear: none;
+    min-height: 111px;
+    font-family: helvetica;
+    font-style: normal;
+    margin-right: 0%;
+}
+
+#textspan7 {
+    float: none;
+    font-size: 70px;
+    line-height: 1em;
+    color: rgb(239, 133, 125);
+}
+

@@ -1,0 +1,404 @@
+@import url(http://fonts.googleapis.com/css?family=Righteous|Roboto);
+
+
+.bh{
+    background-color: whitesmoke;
+    display: table;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: table;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*----header style----*/
+
+header{
+    background-color: whitesmoke;
+    color: #f6adc8;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    position: fixed;
+    text-align: center;
+    -webkit-transition: 1s ease;
+    width: 100%;
+    z-index: 100;
+}
+
+
+@charset "UTF-8";
+
+nav {
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: 30px;
+  list-style-type: none;
+  margin-top: 100px;
+  
+}
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+.navlist{
+  float: left;
+  position: relative;
+  width: 20%;
+  display: block;
+  color: black;
+}
+
+
+.navlist:hover {
+ /* background: #fff; */
+  color: #7defce;
+}
+
+
+
+/*----header style end----*/
+section {
+    color: white;
+    display: table;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 40pt;
+    -webkit-transition: 1s ease;
+    width: 100%;
+
+}
+
+/* Document style */
+
+
+/* Links */
+a {
+       color:#ffffff;
+       text-decoration: none;
+}
+a:hover {
+       color:#333333;
+}
+
+section {
+        overflow: auto;
+ 
+}
+
+/* Simple slideshow (not resposive - yet) */
+.slideshow-wrapper {
+        height: 800px;
+        overflow:hidden;
+        width: 400%; /* 710 * 4 */
+        -webkit-animation: slideshow 20s infinite;
+        -webkit-animation-delay: 3s;
+}
+.slide-image {
+        width: 25%;
+        display:inline-block;
+        margin-right: 0px;
+    
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  float: left;
+ 
+}
+
+.slide-image img {
+width: 100%;
+  display: block;
+    -webkit-filter: brigthness(100%);
+/*  -webkit-transition: opacity 0.3s ease-in-out; */
+
+}
+
+    
+
+
+/* Animation */
+@-webkit-keyframes slideshow {
+				  0%   	{ margin-left: -12%;}
+				  25% 	{ margin-left: -102%;}
+				  50% 	{ margin-left: -202%;}
+				  75% 	{ margin-left: -302%;}
+}
+				
+/* Media queries */
+@media only screen and (max-width:100%) {
+    .slideshow-wrapper  { width:53%; }
+    .slideshow-wrapper .slides .slide-image{ width:52%; }
+    section { padding:0.5em; }
+}
+
+@media only screen and (max-width:52%) {
+     .slideshow-wrapper  { width:40%; }
+    .slideshow-wrapper .slides .slide-image { width:39%;}
+}
+
+
+/*---animation for header end----*/
+
+/*---hover on imges start---*/
+
+* {
+-webkit-box-sizing: border-box;
+}
+
+.slide-image:hover .caption {
+  -webkit-transform: translateY(-100%);
+}
+.slide-image img:hover  {
+ opacity: 0.75;
+  -webkit-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);   
+   /*     -webkit-filter: brigthness(100%)*/
+
+}
+.caption {
+  position: absolute;
+  top: 820px;
+  width: 100%;
+  padding: 0.5em;
+  background: rgba(255,255,255,0.75);
+  z-index: 1;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+}
+.title_slide,
+.author {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.author {
+  font-style: italic;
+  font-size: 0.9em;
+  float: right;
+}
+.author:before {
+  color: #000;
+  content: 'by';
+  margin-right: 0.2em;
+}
+
+
+
+/*---hober on images end---*/
+
+section:nth-of-type(2n) {
+    background-color: skyblue;
+}
+
+.s2 {
+   background-color: white;
+}
+
+.s2left_set img{
+margin-left: 16%;
+margin-top: 10%;
+padding: 0%;
+float: left;
+width: 30%;
+height: 20%
+}
+
+.s2right_set img {
+margin-right: 12%;
+margin-top: 10%;
+padding: 0px;
+float: right;
+width: 30%;
+height: 20%}
+
+.text-vcenter {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*---css for article1---*/
+h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+color:#ee857d;
+font-size: 36pt;
+width: 800px;
+margin-top: 200px;
+}
+
+.wrapper {
+max-width: 1280px;
+    width: 100%; 
+    margin: auto;
+}
+
+.grid {
+    width: 100%;
+}
+
+.icons img {
+    max-width: 60px;
+    width: 50%;
+    padding: 3%;
+    float: right; 
+    margin-right: 4%;
+}
+
+
+.big_image img {
+background-color: white;
+width: 70%;
+margin-left: 16%;
+
+}
+
+.para {
+    float: middle;
+    width: 77%;
+    font-size: 18pt;
+    color: #ee857d;
+    margin-top: 30px;
+    margin-left: 14%;
+    font-family: 'Arial', sans-serif;
+}
+
+.oneletter {
+font-size: 28pt;
+}
+
+.left_ar img {
+float: left;
+margin-top: 10%;
+margin-left: 5%;
+width: 9%;
+}
+
+.right_ar img {
+float: right;
+margin-top: 10%;
+width: 9%;
+margin-right: 3%;
+
+}
+
+.left_img img {
+
+margin-top: 6%;
+width: 27%;
+} 
+
+.mid_img img {
+margin-left: 41%;
+width: 25%;
+margin-top: -80%;
+}
+
+.right_img img {
+width: 20%;
+height: 20%;
+margin-right: 12%;
+float: right;
+margin-top: -22%;
+}
+
+.down {
+  background: #ee857d;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: 8%;
+    
+}
+ 
+/*---for article2---*/
+
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+
+.highlight {
+  opacity: 1 !important;
+}
+
+.image-container_more {
+  position: relative;
+}
+
+/*
+.slide-image {
+width: 25%;
+display:inline-block;
+margin-right: 0px;
+position: relative;
+overflow: hidden;
+background: #000;
+float: left;
+}
+
+.slide-image img {
+width: 100%;
+display: block;
+}
+*/
+
+.image_more {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.image_more img {
+  max-width: 100%;
+  width: 33.48333%;
+  max-height: 800px;
+  display: inline;
+  margin: 0 0 -3px;
+    
+  border: none;
+  opacity: 0.2;
+}
+.image_more img:first-child {
+  opacity: 0.2;
+}
+.image_more img:nth-child(2) {
+  opacity: 1;
+}
+.image_more img:not(:nth-child(2)) {
+  -webkit-filter: grayscale(1);
+}
+.image_more i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 4em;
+  z-index: 9;
+}
+.image_more i:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image_more i:nth-child(1) {
+  left: 5%;
+}
+.image_more i:nth-child(2) {
+  right: 0.5em;
+}
+
+
