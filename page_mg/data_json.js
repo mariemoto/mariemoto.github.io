@@ -7,12 +7,9 @@ $(function() {
                 cache: false,
                 dataType:"json",
                 success: function(data){
-                         $("#result").html(data.status);
-                         
+                         $("#result").html(data.status);                      
                   }
-         
              }
-     
         );
       }
 

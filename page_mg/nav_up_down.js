@@ -1,7 +1,7 @@
  $(document).ready(function () {
             $('.flag').waypoint(function (direction) {
                 if (direction == 'down') {
-                    $('header').css("top", "-100px");
+                    $('header').css("top", "-130px");
                     $('header').css("font-size", "100%");
                     $('.navlist').css("margin-top", "0.5%");
                     $('bh').css("display","none");
@@ -45,26 +45,34 @@
      
         });
 
-// for article2//
 
-     
 
-var image_more = '.image-container_more',
-  slide = $(image_more + ' img').innerWidth();
 
-function append() {
-  $(image_more + ' img').first().appendTo($(image_more));
-}
 
-function prepend() {
-  $(image_more + ' img').last().prependTo($(image_more));
-}
+$(function() {
+    
+    function submitClick (){
+    
+        var Vname= $("#nameText").val();
+        var Vemail= $("#emailText").val();
+        var Vpassword= $("#passwordText").val();
+        
+        $.ajax({
+            data: "data.json",
+            success: function(data) {
+                var thankyou = data.thankyou;
+                 $(".results").fadeIn();
+                $("#sentence .message").html(thankyou);
+                $("#sentence .name").html(Vname);
+                $("#sentence .email").html(Vemail);
+                $("#sentence .password").html(Vpassword);
+            
+            }
+        });
+    
+    }
+        $(".results").hide();
+        $("#submitCTA").click(submitClick); 
+    
+})
 
-$('.prev').click(function() {
-  prepend();
-});
-$('.next').click(function() {
-  append();
-});
-
-// for article2 end//
