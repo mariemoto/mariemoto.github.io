@@ -42,8 +42,33 @@
                 requestFile("article2.html");
                 }
             )
+            
+                        $("#ajaxrequest3").click(function(){
+                requestFile("subscribe.html");
+                }
+            )
      
         });
+
+/* for hamberger menu */
+
+
+	jQuery(function($){
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('expand')
+    		$('.menu-btn').addClass('btn-none')
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('expand')
+    		$('.menu-btn').removeClass('btn-none')
+    	})
+  	})
+
+
+
+/* hamberger menu ends  */
+
 
 
 
@@ -73,6 +98,7 @@ $(function() {
     }
         $(".results").hide();
         $("#submitCTA").click(submitClick); 
+    
     
 })
 
